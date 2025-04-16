@@ -8,6 +8,7 @@ import streamlit as st
 #have a "copy to clipboard" icon to directly copy the password
 
 st.title("Password Generator")
+st.divider()
 
 password_length = st.slider("Enter Password Length", min_value=0, max_value=100, step=1) #number of characters
 capital_letters = st.number_input("Enter Number of Capital Letters", min_value=0, max_value=100, step=1) #number of capital letters
